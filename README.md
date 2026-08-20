@@ -13,10 +13,12 @@ professional software engineering work.
 | [`docs/02-entanglement-measurement.md`](docs/02-entanglement-measurement.md) | Entanglement and its role in phase estimation |
 | [`docs/03-quantum-fourier-transform.md`](docs/03-quantum-fourier-transform.md) | QFT construction, with a matrix-level correctness check |
 | [`docs/04-shors-algorithm.md`](docs/04-shors-algorithm.md) | Order-finding, the full algorithm, and RSA implications |
+| [`docs/05-grovers-algorithm.md`](docs/05-grovers-algorithm.md) | Geometric derivation of amplitude amplification, verified against theory |
 | [`src/qft.py`](src/qft.py) | QFT / inverse QFT circuit construction |
 | [`src/modexp_mod15.py`](src/modexp_mod15.py) | Controlled modular exponentiation, specialised to N=15 |
 | [`src/shor.py`](src/shor.py) | Phase estimation circuit + classical continued-fraction post-processing |
-| [`tests/test_qft.py`](tests/test_qft.py) | Verifies the QFT against its matrix definition and confirms 15 = 3×5 is recovered |
+| [`src/grover.py`](src/grover.py) | Oracle + diffuser construction, optimal iteration count, amplitude amplification |
+| [`tests/test_qft.py`](tests/test_qft.py) | Verifies QFT/Shor/Grover against their closed-form theoretical predictions |
 
 ## Quickstart
 
@@ -57,7 +59,7 @@ N.
 
 ## Roadmap
 
-- [ ] Grover's algorithm (amplitude amplification) write-up + implementation
+- [x] Grover's algorithm (amplitude amplification) write-up + implementation
 - [ ] General (non-hardcoded) modular exponentiation for arbitrary N
 - [ ] Quantum key distribution (BB84) notes
 - [ ] Notes on quantum error correction basics

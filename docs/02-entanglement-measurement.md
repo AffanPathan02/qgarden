@@ -5,12 +5,12 @@
 A multi-qubit state is **entangled** if it cannot be written as a tensor
 product of individual qubit states. The canonical example, a Bell pair:
 
-```
-|Φ+> = (|00> + |11>) / √2
-```
+$$
+|\Phi^+\rangle = \frac{1}{\sqrt{2}}\big(|00\rangle + |11\rangle\big)
+$$
 
-cannot be factored as `|ψ_1> ⊗ |ψ_2>` for any single-qubit states `ψ_1,
-ψ_2` — measuring one qubit instantaneously determines the outcome of
+cannot be factored as $|\psi_1\rangle \otimes |\psi_2\rangle$ for any
+single-qubit states $|\psi_1\rangle, |\psi_2\rangle$ — measuring one qubit instantaneously determines the outcome of
 measuring the other, even though neither qubit has a definite state on its
 own beforehand.
 
