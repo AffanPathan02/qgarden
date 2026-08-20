@@ -9,6 +9,7 @@ professional software engineering work.
 
 | | |
 |---|---|
+| [`prerequisites/00-quantum-gates.md`](prerequisites/00-quantum-gates.md) | **Start here if new to quantum circuits.** Reference for every gate used in this repo, with matrices and where each is used in the code |
 | [`docs/01-circuit-model.md`](docs/01-circuit-model.md) | Qubits, gates as unitary operators, measurement |
 | [`docs/02-entanglement-measurement.md`](docs/02-entanglement-measurement.md) | Entanglement and its role in phase estimation |
 | [`docs/03-quantum-fourier-transform.md`](docs/03-quantum-fourier-transform.md) | QFT construction, with a matrix-level correctness check |
