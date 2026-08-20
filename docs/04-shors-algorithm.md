@@ -246,6 +246,6 @@ superposition prepared and measured in a single circuit execution.
   Discrete Logarithms on a Quantum Computer," *SIAM Journal on Computing*,
   26(5), 1997, pp. 1484–1509.
 - M. A. Nielsen & I. L. Chuang, *Quantum Computation and Quantum
-  Information*, Cambridge University Press, ch. 5.
+  Information*, Cambridge University Press, ch. 1.
 - A. Ekert & R. Jozsa, "Quantum computation and Shor's factoring
   algorithm," *Reviews of Modern Physics*, 68(3), 1996.
